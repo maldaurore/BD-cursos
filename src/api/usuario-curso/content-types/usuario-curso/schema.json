@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuario_cursos",
+  "info": {
+    "singularName": "usuario-curso",
+    "pluralName": "usuario-cursos",
+    "displayName": "UsuarioCurso"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idUsuario": {
+      "type": "integer"
+    },
+    "curso": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::curso.curso"
+    },
+    "terminado": {
+      "type": "boolean"
+    }
+  }
+}

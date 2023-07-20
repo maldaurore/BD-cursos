@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "singularName": "curso",
+    "pluralName": "cursos",
+    "displayName": "curso",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "activo": {
+      "type": "boolean"
+    },
+    "imagenURL": {
+      "type": "string"
+    },
+    "cursoURL": {
+      "type": "string"
+    }
+  }
+}
